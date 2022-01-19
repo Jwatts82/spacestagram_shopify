@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Post from '../components/Post'
+// import Recomendation from '../components/Recomendation';
+// import '../styles/Recomendation.css'
 
 const My_Key = process.env.REACT_APP_NASA_API_KEY;
 
@@ -29,12 +31,11 @@ class Posts extends Component {
         date={post.earth_date} 
         img={post.img_src}/>)
 
-    return  (
-        <div>
-            {posts}
-        </div>
-
-        )
+    return (
+      <div>
+        {posts}
+      </div>
+    );
     }
 }
 

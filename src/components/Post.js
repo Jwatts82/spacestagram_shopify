@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Post.css';
+import '../App.css'
 import Like from './Like'
 
 const Post = ( {status, camera, rover, date, img}) => {
@@ -12,7 +13,7 @@ const Post = ( {status, camera, rover, date, img}) => {
               <div className='info'>
                 <div className='user'>
                   <div className='profile-pic'>
-                    {/* <img src="./img/nasa.jpeg" alt='nasa' /> */}
+                    <img src='nasa.jpg' alt='nasa' />
                   </div>
                   <p className='username'>nasa_rover_channel</p>
                 </div>
@@ -25,7 +26,7 @@ const Post = ( {status, camera, rover, date, img}) => {
               />
               <div className='post-content'>
                 <div className='reaction-wrapper'>
-                    <Like />
+                  <Like />
                 </div>
                 <p className='description'>
                   {rover} Rover - {camera}
