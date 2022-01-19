@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Post.css';
 
 const Post = ( {status, camera, rover, date, img}) => {
   return (
