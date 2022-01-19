@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Post from '../components/Post'
 
 const My_Key = process.env.REACT_APP_NASA_API_KEY;
 
@@ -13,13 +14,19 @@ class Posts extends Component {
           .then(res => res.json())
           .then(data => {
               console.log(data.photos)
+              this.setState({
+                  posts: data.photos
+              })
           })
     }
 
   render() {
+      const posts = this.state.posts.map((post, i) => <Post key={i} sol={post.sol} camera={post.camera.full_name} rover={post.rover.name} date={post.earth_date} img={post.img_src}/>)
+
     return  (
         <div>
             <h1>NASA APP</h1>
+            {posts}
         </div>
 
         )
