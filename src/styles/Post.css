@@ -7,7 +7,6 @@
 }
 
 .wrapper {
-  /* border-radius: 25px; */
   width: 70%;
   max-width: 1000px;
   display: grid;
@@ -80,7 +79,7 @@
   height: auto;
   background: #fff;
   border: 1px solid #dfdfdf;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .post-content i {
