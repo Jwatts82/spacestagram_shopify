@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Post.css';
-
+import Like from './Like'
 
 const Post = ( {status, camera, rover, date, img}) => {
   return (
@@ -25,7 +25,7 @@ const Post = ( {status, camera, rover, date, img}) => {
               />
               <div className='post-content'>
                 <div className='reaction-wrapper'>
-                  <i id='btn' className='far fa-heart' aria-hidden='true'></i>
+                    <Like />
                 </div>
                 <p className='description'>
                   {rover} Rover - {camera}

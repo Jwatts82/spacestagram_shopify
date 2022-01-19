@@ -86,7 +86,6 @@
   font-size: 2rem;
 }
 
-
 .info {
   width: 100%;
   height: 60px;
@@ -134,10 +133,6 @@
 .post-content {
   width: 100%;
   padding: 10px;
-}
-
-.likes {
-  font-weight: bold;
 }
 
 .description {
