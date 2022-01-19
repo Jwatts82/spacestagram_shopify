@@ -4,24 +4,24 @@ import '../styles/Post.css';
 const Post = ( {status, camera, rover, date, img}) => {
   return (
     <div>
-        <section class="main">
-                <div class="wrapper">
-                    <div class="left-col">
-                        <div class="post">
-                            <div class="info">
-                                <div class="user">
-                                    {/* <div class="profile-pic"><img src="img/nasa.jpeg" alt=""></div> */}
-                                    <p class="username">nasa_rover_channel</p>
+        <section className="main">
+                <div className="wrapper">
+                    <div className="left-col">
+                        <div className="post">
+                            <div className="info">
+                                <div className="user">
+                                    <div className="profile-pic"><img src="img/nasa.jpeg" alt=""/></div>
+                                    <p className="username">nasa_rover_channel</p>
                                 </div>
                             </div>
-                            <img src={img} id="picture" class="post-image" alt="Picture By NASA" />
-                            <div class="post-content">
-                                <div class="reaction-wrapper">
-                                <i id="btn" class="far fa-heart" aria-hidden="true"></i>
+                            <img src={img} id="picture" className="post-image" alt="Picture By NASA" />
+                            <div className="post-content">
+                                <div className="reaction-wrapper">
+                                <i id="btn" className="far fa-heart" aria-hidden="true"></i>
                                 </div>
-                                <p class="description">{rover} Rover - {camera}</p>
-                                <p class="date">{date}</p>
-                                <p class="date"> Status - {status}</p>
+                                <p className="description">{rover} Rover - {camera}</p>
+                                <p className="date">{date}</p>
+                                <p className="date"> Status - {status}</p>
                             </div>
                         </div>
                     </div>
