@@ -1,10 +1,12 @@
 import './App.css';
 import Posts from './containers/Posts'
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <div className="App">
-     <h1>Spacestagram</h1>
      <hr />
+        <Navbar />
         <Posts />
     </div>
   );
