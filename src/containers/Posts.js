@@ -21,11 +21,16 @@ class Posts extends Component {
     }
 
   render() {
-      const posts = this.state.posts.map((post, i) => <Post key={i} sol={post.sol} camera={post.camera.full_name} rover={post.rover.name} date={post.earth_date} img={post.img_src}/>)
+      const posts = this.state.posts.map((post, i) => <Post 
+        key={i} 
+        status={post.rover.status} 
+        camera={post.camera.full_name} 
+        rover={post.rover.name} 
+        date={post.earth_date} 
+        img={post.img_src}/>)
 
     return  (
         <div>
-            <h1>NASA APP</h1>
             {posts}
         </div>
 
