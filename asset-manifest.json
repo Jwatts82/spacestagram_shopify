@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spacestagram_shopify/static/css/main.23ecda52.css",
+    "main.js": "/spacestagram_shopify/static/js/main.a53944f0.js",
+    "static/js/787.0ee98bce.chunk.js": "/spacestagram_shopify/static/js/787.0ee98bce.chunk.js",
+    "index.html": "/spacestagram_shopify/index.html",
+    "main.23ecda52.css.map": "/spacestagram_shopify/static/css/main.23ecda52.css.map",
+    "main.a53944f0.js.map": "/spacestagram_shopify/static/js/main.a53944f0.js.map",
+    "787.0ee98bce.chunk.js.map": "/spacestagram_shopify/static/js/787.0ee98bce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ecda52.css",
+    "static/js/main.a53944f0.js"
+  ]
+}
